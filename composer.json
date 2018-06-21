@@ -1,6 +1,6 @@
 {
     "type": "library",
-    "name": "mit-toolbox",
+    "name": "madeinitalyslc/mit-toolbox",
     "description": "",
     "license": "MIT",
     "require": {
