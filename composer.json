@@ -4,8 +4,8 @@
     "description": "",
     "license": "MIT",
     "require": {
-        "illuminate/config": "^5.6",
-        "pimple/pimple": "^3.2"
+        "symfony/dependency-injection": "^4.1",
+        "symfony/config": "^4.1"
     },
     "require-dev": {
         "symfony/var-dumper": "^4.1"
