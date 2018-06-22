@@ -28,4 +28,13 @@ class Application implements ApplicationInterface
 
         $this->setContainer($container);
     }
+
+    /**
+     * @param string $id
+     * @return null|\object
+     * @throws \Exception
+     */
+    public function get(string $id) : object {
+        return ($this->getContainer()->has($id)) ? $this->getContainer()->get($id) : null;
+    }
 }
